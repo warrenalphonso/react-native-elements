@@ -119,7 +119,7 @@ const styles = {
 };
 
 Image.propTypes = {
-  ...ImageNative.propTypes,
+//  ...ImageNative.propTypes,
   ImageComponent: PropTypes.elementType,
   PlaceholderContent: nodeType,
   containerStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
