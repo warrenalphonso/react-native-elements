@@ -180,7 +180,7 @@ Input.propTypes = {
   InputComponent: PropTypes.elementType,
   errorProps: PropTypes.object,
   errorStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
-  errorMessage: PropTypes.string,
+  errorMessage: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
   label: PropTypes.node,
   labelStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   labelProps: PropTypes.object,
