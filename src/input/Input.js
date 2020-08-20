@@ -223,7 +223,7 @@ const styles = {
   },
   error: (theme) => ({
     margin: 5,
-    fontSize: 12,
+    fontSize: 14,
     color: theme.colors.error,
   }),
   label: (theme) => ({
