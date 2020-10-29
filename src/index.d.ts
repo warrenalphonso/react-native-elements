@@ -1141,7 +1141,7 @@ export interface ListItemProps extends TouchableHighlightProps {
   leftAvatar?: Partial<AvatarProps> | React.ReactElement<{}>;
   rightAvatar?: Partial<AvatarProps> | React.ReactElement<{}>;
   leftElement?: React.ReactElement<{}>;
-  rightElement?: React.ReactElement<{}>;
+  rightElement?: React.ReactNode; // Changed!
   switch?: SwitchProperties;
   input?: InputProps;
   buttonGroup?: ButtonGroupProps;
