@@ -213,7 +213,7 @@ export interface AvatarProps {
   /**
    * Optional properties to pass to the image if provided e.g "resizeMode"
    */
-  imageProps?: Partial<ImageProps>;
+  imageProps?: Partial<Record<string, unknown>>;
 
   /**
    * Size of Avatar
@@ -227,7 +227,7 @@ export interface AvatarProps {
    * @default React Native default Image component
    */
 
-  ImageComponent?: React.ComponentClass;
+  ImageComponent?: React.ReactNode;
 }
 
 /**
