@@ -866,7 +866,7 @@ export interface InputProps extends TextInputProperties {
   /**
    * 	Adds error message (optional)
    */
-  errorMessage?: string;
+  errorMessage?: React.ReactNode;
 
   /**
    * 	props to be passed to the React Native Text component used to display the error message (optional)
